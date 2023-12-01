@@ -1,0 +1,34 @@
+{
+  "name": "compressify",
+  "version": "1.0.0",
+  "description": "An image compressor CLI tool that \"Compressifies\" your beautiful images!",
+  "main": "bin/index.js",
+  "bin": {
+    "compressify": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJX30/Compressify.git"
+  },
+  "keywords": [
+    "images",
+    "compress",
+    "reduce",
+    "CLI",
+    "tool",
+    "lossless"
+  ],
+  "author": "Mauricio Del Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJX30/Compressify/issues"
+  },
+  "homepage": "https://github.com/JJX30/Compressify#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "yargs": "^17.7.2"
+  }
+}
